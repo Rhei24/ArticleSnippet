@@ -16,31 +16,156 @@ const Article = () => {
         {/* ! mobile responsive design not yet working corrently (no auto margin) */}
         {/* !! w-25 at medium screen, w-100 at smalll screen */}
 
-        {/* limit of 10 articles */}
-        <div className="left-content d-flex flex-column gap-2 text-start">
+        {/* limit of 10 articles for simplicity, succeeding older ones will be available inside the Article Archive */}
+        <div className="left-content d-flex flex-column text-start gap-3">
           {/* !! Needs to be blue when active, temporarily set as bg-primary*/}
 
           {/* Card */}
-          <div className="shadow-lg p-2 d-flex flex-column">
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
             {/* separate left and right of prev. article */}
             <div>
-              <span className="fw-semibold fs-5">Foo Bar </span>
+              <span className="fw-semibold fs-5">Article Title #1</span>
             </div>
             <div className="d-flex justify-content-between">
               <span className="fw-light">Date Published: June 28, 2023</span>
-              <div className="rounded-pill bg-danger">
-                <div className="bg-danger fw-bold px-2 py-1 text-white rounded-pill">
-                  Advisory
-                </div>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
               </div>
             </div>
           </div>
-          {/* Category */}
-          {/* ! text should be centered to the parent div */}
-          {/* -> temporarily flexing date published and category */}
+          {/* Card End */}
+
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #2</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: June 10, 2023</span>
+              <div className="bg-danger fw-bold px-2 py-1 text-white rounded-pill">
+                Advisory
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #3</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: May 28, 2023</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Events
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #4</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: May 10, 2023</span>
+              <div className="bg-warning fw-bold px-2 py-1 text-white rounded-pill">
+                Seminar - ICT
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">
+                Article Title that is very long that will go to the next line #5
+              </span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: April 28, 2023</span>
+              <div className="bg-warning fw-bold px-2 py-1 text-white rounded-pill">
+                Seminar - HR
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #6</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: March 7, 2023</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #7</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: March 6, 2023</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #8</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: March 5, 2023</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #9</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: March 4, 2023</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
+          {/* Card */}
+          <div className="shadow-lg p-2 d-flex flex-column rounded">
+            {/* separate left and right of prev. article */}
+            <div>
+              <span className="fw-semibold fs-5">Article Title #10</span>
+            </div>
+            <div className="d-flex justify-content-between">
+              <span className="fw-light">Date Published: March 3, 2022</span>
+              <div className="bg-success fw-bold px-2 py-1 text-white rounded-pill">
+                Extra-Curricular
+              </div>
+            </div>
+          </div>
+          {/* Card End */}
 
           {/* "d-flex align-items-center justify-content-center border */}
-          {/* Card End */}
 
           {/* Link to Article Archive */}
           <a href="/" className="text-decoration-none">
@@ -58,6 +183,7 @@ const Article = () => {
               alt="ArticleImage"
               className="h-50 w-100"
             />
+            {/* put indention for every separate paragraph */}
             <p className="text-start">
               "On the other hand, we denounce with righteous indignation and
               dislike men who are so beguiled and demoralized by the charms of
@@ -74,47 +200,26 @@ const Article = () => {
               repudiated and annoyances accepted. The wise man therefore always
               holds in these matters to this principle of selection: he rejects
               pleasures to secure other greater pleasures, or else he endures
-              pains to avoid worse pains."
+              pains to avoid worse pains." "On the other hand, we denounce with
+              righteous indignation and dislike men who are so beguiled and
+              demoralized by the charms of pleasure of the moment, so blinded by
+              desire, that they cannot foresee the pain and trouble that are
+              bound to ensue; and equal blame belongs to those who fail in their
+              duty through weakness of will, which is the same as saying through
+              shrinking from toil and pain. These cases are perfectly simple and
+              easy to distinguish. In a free hour, when our power of choice is
+              untrammelled and when nothing prevents our being able to do what
+              we like best, every pleasure is to be welcomed and every pain
+              avoided. But in certain circumstances and owing to the claims of
+              duty or the obligations of business it will frequently occur that
+              pleasures have to be repudiated and annoyances accepted. The wise
+              man therefore always holds in these matters to this principle of
+              selection: he rejects pleasures to secure other greater pleasures,
+              or else he endures pains to avoid worse pains."
             </p>
           </div>
         </div>
       </div>
-      {/* Testing Non-utility classes*/}
-
-      {/* 
-        ! card-body default class padding is too big, need utility class to make it smaller
-        -> padding cannot utilize negative values
-        Solved: App.css giving card extra padding
-        ! need utility class that targets screen size; md:w-50, sm:w-100
-        
-        
-        */}
-      <div className="my-5 fs-6 fw-bold">
-        TESTING DEFAULT CLASSES BOOTSTRAP transfer to pratice.tsx
-      </div>
-      {/* flex container */}
-      <div className="d-flex container">
-        {/* Left Content */}
-
-        <div className="card w-50">
-          <div className="card-body text-start">
-            {/* inserted utility class for adding gap to header and body */}
-            <div className="d-flex flex-column gap-4">
-              <div className="Header">
-                <h3 className="card-title">Foo</h3>
-                <p className="card-subtitle fw-light">
-                  Date published: June 28, 2023
-                </p>
-              </div>
-              <div className="card-text">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Right Content */}
     </div>
   );
 };

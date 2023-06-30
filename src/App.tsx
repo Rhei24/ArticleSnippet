@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="d-flex flex-column gap-5">
+    <div className="d-flex flex-column gap-5 bg-light">
       <Announcement />
       <div>Announcement/Article divider</div>
       <Article />
