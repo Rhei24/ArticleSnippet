@@ -1,17 +1,15 @@
 .left-article-card {
-  width: 60;
+  width: 60%;
 }
 
 .right-article-card {
-  width: 40;
+  width: 40%;
 }
 
-/* brb 
 .left-content {
-  width: 50;
+  width: 40%;
 }
 
 .right-content {
-  width: 50;
+  width: 60%;
 }
-*/

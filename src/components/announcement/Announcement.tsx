@@ -12,7 +12,7 @@ import Card from "react-bootstrap/Card";
 
 function Home() {
   return (
-    <Card style={{ width: "30rem" }} className="gap-4">
+    <Card style={{ width: "30rem" }} className="border-0 gap-4">
       <h1 className="fw-bold">Announcement</h1>
       {/* Article #1 */}
       <Card.Body className="container d-grid gap-1 shadow-lg">
